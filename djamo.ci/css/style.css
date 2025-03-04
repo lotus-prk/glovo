@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Varela+Round&display=swap');
+
+body{
+    margin: 0;
+    font-family: "Varela Round", serif;
+}
+.header{
+    padding: 20px;
+    box-shadow: 0px 2px 5px #cccccc;
+    font-size: smaller;
+    position: fixed;
+    background-color: rgb(255, 255, 255, 0.9);
+    width: 100%;
+    
+
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+   
+}
+.bleu{
+    background-color: blue;
+    color: white ;
+    border-radius: 40px;
+    padding: 20px 30px ;
+    text-decoration: none;
+}
+.menu li{
+    list-style:none;
+    display:inline-block;
+  
+   
+
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+.menu a:hover{
+    background-color: #dddd;
+    color: blue;
+    border-radius: 5PX;
+}
+.banniere{
+    padding-top: 90px;
+}
+.title{
+    background: linear-gradient(to right, #ffbc01, #ff90a5);
+    font-size: 70px;
+    background-clip: text;
+    color: transparent;
+
+}
+.indicatif{
+    padding: 5px 10px;
+    border: 1px solid #eeee;
+    border-radius: 4px;
+}
+.telephone{
+    border-radius: 4PX;
+    padding: 5px 10px;
+    width: 160px;
+}
+.ouvrir{
+    border: none;
+    padding: 6px 10px;
+}
+.carte{
+    margin-left:-75PX;
+}
+.demarrer{
+    margin-top: 30px;
+    background-color: black;
+    color: #ffffff;
+    padding: 20px;
+    gap: 30px;
+}
+.eclair{
+    width: 33%;
+    display: flex;
+}
+.eclair p{
+    color: #aaaaaa;
+    margin-bottom: 7PX;
+    margin-top: 0px;
+    
+}
+.eclair h2{
+    font-size: 18PX;
+    margin-top: 0PX;
+    
+}
+.flex{
+    display: flex;
+    gap: 10px;
+}
+.taille{
+    font-size: 30px;
+    color: red;
+}
+.appli{
+ text-align: center;
+}
+.appli h2{
+    background: linear-gradient(to right, red, blue);
+    font-size: 60px;
+    background-clip: text;
+    color: transparent;
+}
+.appli P{
+    margin-top: -10px;
+}
+
+.care {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 65%;
+    max-height: 60%;
+    padding: 20px;
+    
+}
+.card{
+    height: 200px;
+    width: 400px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    margin-bottom: -50px;
+}
+.a .care :hover{
+    background-color:#ff90a5;
+}
+.paki {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 50px auto;
+    gap: 40px;
+}
+.paty  .paki{
+    
+  
+   
+}
+
+
+.machette {
+    max-width: 500px;
+}
+
+
+.machette h3 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    background: linear-gradient(to right, #0105ff, #f5e501);
+    
+    background-clip: text;
+    color: transparent;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+
+}
+
+.raki ul{
+    text-decoration: none;
+}
+
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn-primary {
+    background-color: #0000FF;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.machette .Economisez{
+    background: linear-gradient(to right, red, green);
+    font-size: 60px;
+    background-clip: text;
+    color: transparent;
+}
+.machette .Gardez{
+    background: linear-gradient(to right, green, blue);
+    font-size: 50px;
+    background-clip: text;
+    color: transparent;
+}
+.machette .Vivez{
+    background: linear-gradient(to right, yellow, green);
+    font-size: 60px;
+    background-clip: text;
+    color: transparent;
+}
+.Nos{
+    text-align: center;
+    gap: 0;
+}
+.Nos h1{
+    background: linear-gradient(to right, pink, blue);
+    font-size: 60px;
+    background-clip: text;
+    color: transparent;
+    
+}
+.Nos p {
+    font-size: 20px ;
+    margin-top: -30PX;
+}
+.stars{
+    color: #4CAF50;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+.Nos .tchai{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tchai img{
+    margin-top: -50px;
+}
+ h4{
+    text-align: center;
+    margin-top: -30px;
+   
+}
+.avis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.amis{
+    display:flex;
+    justify-content: center;
+    background-color: #F8E8A0;
+    margin: auto;
+    max-width: 800px;
+    border-radius: 15px;
+   margin-top: 30px;
+   padding-left: 107px;
+}
+.amis h2{
+    font-size: 30px;
+}
+button {
+    background-color: #007bff; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+.frais h3{
+    font-size: 80px;
+    text-align:center;
+}
